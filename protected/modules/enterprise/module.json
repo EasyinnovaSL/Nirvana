@@ -1,0 +1,10 @@
+{
+  "id": "enterprise",
+  "name": "HumHub Enterprise Edition",
+  "description": "Extend HumHub with Enterprise Features.",
+  "keywords": ["enterprise", "edition"],
+  "version": "1.1.14",
+  "humhub": {
+    "minVersion": "1.1.1"
+  }
+}

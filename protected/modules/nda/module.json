@@ -1,0 +1,11 @@
+{
+    "id": "nda",
+    "name": "NDA Agreement Module",
+    "description": "",
+    "keywords": ["nirvana", "form", "card", "company", "EOL"],
+    "version": "1.0.0",
+    "humhub": {
+        "minVersion": "1.1.1"
+    },
+    "screenshots": ["assets/screen1.jpg", "assets/screen2.jpg", "assets/screen3.jpg"]
+}

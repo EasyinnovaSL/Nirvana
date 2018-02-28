@@ -1,0 +1,23 @@
+<?php
+return array (
+  'Adds an calendar for private or public events to your profile and mainmenu.' => 'Tilføjer en kalender for private eller offentlige events til din profil og mainmenu.',
+  'Adds an event calendar to this space.' => 'Tilføjer en event kalender til denne side',
+  'All Day' => 'Hele dagen',
+  'Attending users' => 'Deltagende brugere',
+  'Calendar' => 'Kalender',
+  'Declining users' => 'Ikke-deltagende brugere',
+  'Description' => 'Beskrivelse',
+  'End Date' => 'Slut Dato',
+  'End Time' => 'Slut tidspunkt',
+  'End time must be after start time!' => 'Slut tidspunkt skal være efter start tidspunkt!',
+  'Event' => 'Event',
+  'Event not found!' => 'Event ikke fundet!',
+  'ID' => 'ID',
+  'Maybe attending users' => 'Måske deltagende brugere',
+  'Participation Mode' => 'Deltagelses tilstand',
+  'Start Date' => 'Start Dato',
+  'Start Time' => 'Start Tidspunkt',
+  'Title' => 'Titel',
+  'You don\'t have permission to delete this event!' => 'Du har ikke adgang til at slette dette event!',
+  'You don\'t have permission to edit this event!' => 'Du har ikke adgang til at redigere dette event!',
+);

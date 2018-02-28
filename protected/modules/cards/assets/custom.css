@@ -1,0 +1,347 @@
+
+/* panels */
+
+.panel.panel.card-dismissed {
+	border-top:none!important;
+    border-left: 2px solid #f44336!important;
+	background-color: rgb(255, 242, 241)!important;
+}
+.cards .panel-child.card-dismissed { 
+border-left: 2px solid #f44336!important;
+ background-color: rgb(255, 242, 241)!important;
+}
+
+
+.panel.panel.card-pending {
+	border-top:none!important;
+    border-left: 2px solid #03a9f4!important;
+/*	background-color: #fafdff!important; */
+}
+.cards .panel-child.card-pending {
+    border-left: 2px solid #03a9f4!important;
+/*	background-color: #fafdff!important; */
+}
+
+
+.panel.panel.card-completed { 
+border-top:none!important;
+    border-left: 2px solid #4caf50!important;
+	    background-color: #f6fff7!important;
+}
+.cards .panel-child.card-completed { 
+    border-left: 2px solid #4caf50!important;
+	    background-color: #f6fff7!important;
+}
+
+
+.panel.panel.card-ongoing { 
+border-top:none!important;
+    border-left: 2px solid #3B7398!important;
+}
+.cards .panel-child.card-ongoing { 
+    border-left: 2px solid #3B7398!important;
+}
+
+
+.card-heading {
+    background-color: transparent!important;
+}
+
+
+.card-heading .label {
+	margin-left:5px;
+	}
+.card-heading .label i {
+    font-size: 17px!important;
+    line-height: 20px!important;
+    height: auto!important;
+    width: auto!important;
+	margin-top: -3px!important;
+    top: 23px;
+    left: -13px;
+    position: absolute;
+}
+
+
+
+	
+.card-heading h1 {
+    font-size: 21px!important;
+	font-weight:600!important;
+	color:#2d3340!important;
+}
+
+
+.layout-sidebar-container h1 {
+font-size:inherit!important;
+}
+
+form > .card-heading > .label {
+    font-size: 14px!important;
+    position: relative;
+   padding: 4px!important;
+    top: -20px!important;
+    left: 20px!important;
+}
+form > .card-heading > a.label{
+    font-size: 15px!important;
+    position: relative;
+    border-radius: 50px!important;
+    padding: 10px!important;
+    top: -10px!important;
+    left: 0px!important;
+}
+.card-child > .card-heading > .label{
+    font-size: 15px!important;
+    position: relative;
+
+    top: -10px!important;
+    left: 0px!important;
+
+}
+
+i.circle.circle-dismissed, i.circle.circle-pending, i.circle.circle-end-date, i.circle.circle-ongoing, i.circle.circle-completed { border:none!important;}
+
+
+
+.label.label-end-date, i.circle.circle-end-date {
+    color: #fff!important;
+    background-color: #03A9F4;
+    border: 2px solid #03A9F4;
+}
+
+.label.label-pending{
+    color: white;
+    background-color: #03a9f4!important;
+    border: 2px solid #03a9f4;
+}
+
+i.circle.circle-pending {
+      color: #03a9f4!important;
+      background-color: transparent!important;
+      border: 2px solid #03a9f4;
+  }
+
+.label.label-dismissed{
+    color: white;
+    background-color: #f44336!important;
+    border: 2px solid #f44336;
+}
+i.circle.circle-dismissed {
+    color: #f44336!important;
+    background-color: transparent!important;
+    border: 2px solid #f44336;
+}
+ .label.label-ongoing{
+    color: white;
+    background-color: #3B7398 !important;
+    border: 2px solid #3B7398;
+   
+}
+i.circle.circle-ongoing {
+    color: #3B7398!important;
+    background-color: transparent!important;
+    border: 2px solid #3B7398;
+
+}
+.label.label-completed{
+    color: white;
+    background-color: #4caf50!important;
+    border: 2px solid #4caf50;
+   
+}
+i.circle.circle-completed {
+    color: #4caf50!important;
+    background-color: transparent!important;
+    border: 2px solid #4caf50;
+
+}
+
+
+
+ a.label-end-date:hover {
+	box-shadow: 0px 0px 0px 2px #03A9F4;
+	transition: 0.3s;
+	}
+
+
+.panel-child h1, .card-child h1{
+	font-size:21px!important;
+	}
+
+
+.card-child > .card-heading > .label {
+    font-size: 14px!important;
+    top: -19px;
+    position: relative;
+
+    padding: 9px;
+    margin-right: 10px!important;
+}
+
+div .action_right {
+    height: 40px!important;
+}
+
+.btn-dismiss, .btn-dismiss-child {
+    color: #2d3340!important;
+    background-color: #F1F1F1!important;
+    border: 1px solid #f44336!important;
+    border-radius: 50px!important;
+    float: right;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    will-change: box-shadow, transform;
+    -webkit-transition: -webkit-box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    -o-transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    outline: 0;
+    cursor: pointer;
+    text-decoration: none;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    margin-right: 3px;
+    padding: 5px 15px;
+    margin-top: 10px;
+}
+
+.btn-dismiss:hover, .btn-dismiss-child:hover {
+	box-shadow: 0px 0px 0px 2px #f44336;
+	transition: 0.3s;
+	}
+
+.btn-dismiss-child{
+    margin-top: 0px;
+    margin-right: 10px;
+}
+
+
+.btn-completed {
+    color: #2d3340!important;
+    background-color: #F1F1F1!important;
+    border: 1px solid #4caf50!important;
+    border-radius: 50px!important;
+    float: right;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    will-change: box-shadow, transform;
+    -webkit-transition: -webkit-box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    -o-transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    outline: 0;
+    cursor: pointer;
+    text-decoration: none;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    margin-right: 10px !important;
+    padding: 5px 15px;
+}
+
+.btn-completed:hover {
+    box-shadow: 0px 0px 0px 2px #4caf50;
+    transition: 0.3s;
+}
+	
+span.split-button.fileinput-button.btn.btn-success.overflow-ellipsis {
+    border-radius: 50px;
+    padding: 5px 15px!important;
+    text-transform: uppercase;
+    border: 1px solid #5da72d!important;
+    color: #2D3240!important;
+    background-color: #d8eeca!important;
+}
+
+.btn.btn-success, .btn-success {
+    background: #d8eeca!important;
+    color: #2D3240!important;
+    border-radius: 50px!important;
+    margin-right: 5px!important;
+	padding: 5px 15px!important;
+	border: 1px solid #5da72d!important;
+}
+
+.btn.btn-success:hover {
+	box-shadow: 0px 0px 0px 2px #5da72d!important;
+	transition: 0.3s;
+	}
+
+
+span.split-button.fileinput-button.btn.btn-success.overflow-ellipsis {
+    border-radius: 50px;
+    padding: 9px 15px;
+    text-transform: uppercase;
+    border: 1px solid #4d7731;
+}
+
+
+.btn-primary {
+    background: #2d3340!important;
+    color: white !important;
+    border-radius: 50px!important;
+    padding: 5px 15px!important;
+    border: 1px solid #000000!important;
+}
+
+.btn-primary:hover {
+	box-shadow: 0px 0px 0px 2px #000!important;
+	transition: 0.3s;
+	
+	}
+	
+
+
+.cards .panel-child {
+    background-color: #ffffff !important;
+    padding: 19px 0px 5px 19px !important;
+    margin-bottom: -1px !important;
+    margin-left: 25px!important;
+    box-shadow: 0px 2px 11px rgba(0,0,0,.20) !important;
+    border-radius: 0px !important;
+    border-top: 1px solid rgba(0,0,0,.20)!important;
+    border-right: 1px solid rgba(0,0,0,.20)!important;
+    border-bottom: 1px solid rgba(0,0,0,.20)!important;
+}
+
+	
+
+#nameUpperScreenBackground {
+    background-color: #2d3340 !important;
+}
+#nameUpperScreenBackground:hover {
+    background-color: #2d3340 !important;
+}
+#nameUpperScreenBackground li a:hover {
+    background-color: #2d3340 !important;
+}
+#topbar-first .dropdown.account.open>a{
+    background-color: #2d3340 !important;
+}
+#wallStream{
+    display: block;
+}
+#nameUpperScreenBackground li a {
+    background-color: #2d3340 !important;
+}
+#nameUpperScreenBackground li {
+    background-color: #2d3340 !important;
+}
+.fold {
+    overflow: hidden;
+}
+.circle-active{
+    color: #2d3340 !IMPORTANT;
+    background-color: transparent !IMPORTANT;
+
+}

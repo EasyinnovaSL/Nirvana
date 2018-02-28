@@ -1,0 +1,10 @@
+{
+  "id": "cards",
+  "name": "Cards",
+  "description": "Cards",
+  "keywords": ["card"],
+  "version": "1.0",
+  "humhub": {
+    "minVersion": "0.20"
+  }
+}

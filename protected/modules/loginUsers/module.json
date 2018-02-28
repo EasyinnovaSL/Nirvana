@@ -1,0 +1,11 @@
+{
+    "id": "loginUsers",
+    "name": "loginUsers module",
+    "description": "Nirvana login module for all kind of users",
+    "keywords": ["nirvana", "login"],
+    "version": "1.0.0",
+    "humhub": {
+        "minVersion": "1.1.1"
+    },
+    "screenshots": ["assets/screen1.jpg", "assets/screen2.jpg", "assets/screen3.jpg"]
+}

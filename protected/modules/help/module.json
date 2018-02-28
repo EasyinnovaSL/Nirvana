@@ -1,0 +1,10 @@
+{
+    "id": "help",
+    "name": "Help module",
+    "description": "This module helps the user through the system",
+    "keywords": ["nirvana", "tutorial", "help", "wizard"],
+    "version": "1.0.0",
+    "humhub": {
+        "minVersion": "1.1.1"
+    }
+}

@@ -1,0 +1,27 @@
+#nameUpperScreenBackground {
+    background-color: #2d3340 !important;
+}
+#nameUpperScreenBackground:hover {
+    background-color: #2d3340 !important;
+}
+#nameUpperScreenBackground li a:hover {
+    background-color: #2d3340 !important;
+}
+#topbar-first .dropdown.account.open>a{
+    background-color: #2d3340 !important;
+}
+#wallStream{
+    display: block;
+}
+#nameUpperScreenBackground li a {
+    background-color: #2d3340 !important;
+}
+#nameUpperScreenBackground li {
+    background-color: #2d3340 !important;
+}
+.fold {
+    overflow: hidden;
+}
+.buttonCardToRight{
+    float: right !important;
+}

@@ -1,0 +1,11 @@
+{
+    "id": "polls",
+    "name": "Polls",
+    "description": "Simple polling system for spaces",
+    "keywords": ["poll", "voting"],
+    "version": "0.9.4",
+    "humhub": {
+        "minVersion": "0.20"
+    },
+    "screenshots": ["assets/screen1.jpg", "assets/screen2.jpg", "assets/screen3.jpg"]
+}
